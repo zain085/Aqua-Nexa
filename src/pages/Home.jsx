@@ -93,7 +93,7 @@ export default function Home({ setCurrentPage }) {
             <p className="section-eyebrow">Marine discovery center</p>
 
             <h1 className="mt-5 font-serif text-[clamp(3rem,7vw,5.8rem)] font-medium leading-[0.92] tracking-[-0.04em] text-[var(--text-main)]">
-              <span className="block text-[var(--accent)]">Nexus</span>
+              <span className="block text-[var(--accent)]">Aqua Nexa</span>
               Aquarium
             </h1>
 
@@ -262,7 +262,7 @@ export default function Home({ setCurrentPage }) {
       <section className="section-container pt-20 sm:pt-28">
         <div className="grid gap-10 lg:grid-cols-[0.75fr_1.25fr] lg:gap-16">
           <div>
-            <p className="section-eyebrow">Today at Nexus</p>
+            <p className="section-eyebrow">Today at Aqua Nexa</p>
 
             <h2 className="section-title mt-3">Special Events</h2>
 
@@ -336,8 +336,8 @@ export default function Home({ setCurrentPage }) {
               <h2 className="section-title mt-3">Visit Us</h2>
 
               <p className="section-description mt-4">
-                Find Nexus Aquarium at Seattle's waterfront and begin your
-                journey into the marine world.
+                Find Aqua Nexa at Seattle's waterfront and begin your journey
+                into the marine world.
               </p>
             </div>
 
@@ -378,14 +378,14 @@ export default function Home({ setCurrentPage }) {
               className="h-full min-h-[360px] w-full sm:min-h-[430px]"
               src="https://maps.google.com/maps?q=seattle%20aquarium&t=&z=14&ie=UTF8&iwloc=&output=embed"
               loading="lazy"
-              title="Nexus Aquarium location"
+              title="Aqua Nexa location"
             />
           </div>
         </div>
       </section>
 
       {/* About */}
-      <section className="mt-20  sm:mt-28">
+      <section className="mt-20 sm:mt-28">
         <div className="section-container py-16 sm:py-20">
           <div className="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-16">
             <div>
@@ -398,9 +398,9 @@ export default function Home({ setCurrentPage }) {
 
             <div className="max-w-3xl space-y-5">
               <p className="text-base leading-8 text-[var(--text-secondary)]">
-                Nexus Aquarium is a place where curiosity meets the underwater
-                world. From colorful reef inhabitants to fascinating predators,
-                our exhibits are designed to give visitors a closer look at the
+                Aqua Nexa is a place where curiosity meets the underwater world.
+                From colorful reef inhabitants to fascinating predators, our
+                exhibits are designed to give visitors a closer look at the
                 extraordinary life beneath the surface.
               </p>
 

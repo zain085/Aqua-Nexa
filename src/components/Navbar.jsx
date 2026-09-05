@@ -7,7 +7,6 @@ import {
   Menu,
   X,
   ArrowUpRight,
-  Fish,
 } from 'lucide-react';
 
 export default function Navbar({
@@ -40,27 +39,14 @@ export default function Navbar({
         <button
           type="button"
           onClick={() => navigate('home')}
-          className="group flex items-center gap-3 text-left"
+          className="group flex items-center text-left"
           aria-label="Aqua Nexa home"
         >
-          <div className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[var(--border-strong)] bg-[var(--surface-soft)] text-[var(--accent)] transition-colors duration-200 group-hover:border-[var(--border-accent)] group-hover:bg-[var(--glow-accent)]">
-            <Fish
-              className="h-5 w-5"
-              strokeWidth={1.5}
-            />
-
-            <span className="absolute bottom-1 right-1 h-1.5 w-1.5 rounded-full bg-[var(--accent-light)]" />
-          </div>
-
-          <div className="hidden sm:block">
-            <div className="font-serif text-[16px] font-medium tracking-wide text-[var(--text-main)]">
-              Aqua Nexa
-            </div>
-
-            <div className="mt-0.5 text-[8px] font-semibold uppercase tracking-[0.28em] text-[var(--text-muted)]">
-              Marine Discovery Center
-            </div>
-          </div>
+          <img
+            src="/aqua-nexa-logo.svg"
+            alt="Aqua Nexa"
+            className="h-10 w-auto object-contain transition-opacity duration-200 group-hover:opacity-80 sm:h-11"
+          />
         </button>
 
         {/* Desktop navigation */}

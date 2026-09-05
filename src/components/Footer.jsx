@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Fish } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import {
   FaInstagram,
   FaFacebookF,
@@ -30,23 +30,12 @@ export default function Footer() {
       <div className="section-container py-5 sm:py-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           {/* Brand */}
-          <div className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[var(--border-strong)] bg-[var(--surface-soft)] text-[var(--accent)]">
-              <Fish
-                className="h-4 w-4"
-                strokeWidth={1.5}
-              />
-            </div>
-
-            <div>
-              <div className="font-serif text-sm font-medium tracking-wide text-[var(--text-main)]">
-                Aqua Nexa
-              </div>
-
-              <div className="text-[7px] font-semibold uppercase tracking-[0.25em] text-[var(--text-muted)]">
-                Marine Discovery Center
-              </div>
-            </div>
+          <div>
+            <img
+              src="/aqua-nexa-logo.svg"
+              alt="Aqua Nexa"
+              className="h-9 w-auto object-contain sm:h-10"
+            />
           </div>
 
           {/* Contact + Socials */}
